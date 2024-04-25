@@ -1,30 +1,17 @@
 import React from "react";
-// import Header from './Components/Header';
-// import Home from './Pages/Home';
-import About from './Pages/About';
-import Skills from './Pages/Skills';
-import Portfolio from './Pages/Portfolio';
-import Contact from './Components/Footer';
+import About from './templates/about/About.jsx';
+import Projects from './templates/projects/Projects';
+import Footer from './components/footer/Footer';
+import BackgroundAnimation from './components/bg-animation/BackgroundAnimation';
 
 function App() {
   return (
     <div className="page">
-      <div class='light x1'></div>
-      <div class='light x2'></div>
-      <div class='light x3'></div>
-      <div class='light x4'></div>
-      <div class='light x5'></div>
-      <div class='light x6'></div>
-      <div class='light x7'></div>
-      <div class='light x8'></div>
-      <div class='light x9'></div>
       <React.Fragment>
-          {/* <Headers /> */}
-          {/* <Home /> */}
           <About />
-          <Skills />
-          <Portfolio />
-          <Contact />
+          <Projects />
+          <Footer />
+          <BackgroundAnimation />
       </React.Fragment>
     </div>
   );

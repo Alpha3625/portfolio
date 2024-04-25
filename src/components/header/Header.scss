@@ -1,0 +1,122 @@
+.header {
+    padding: 20px 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: fantasy;
+        padding: 0 10px;
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-right: 3px solid #f0c272;
+        border-left: 3px solid #f0c272;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        animation: header-brand 5s 1;
+    }
+}
+
+.header.active {
+    position: fixed;
+    background-color: #000000;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+
+    &__link {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-transform: uppercase;
+        font-size: clamp(5px, 3vw, 16px);
+        font-weight: 700;
+        margin-right: 15px;
+        padding-bottom: 5px;
+        border-bottom: 3px solid transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: linear .1s;
+        animation: nav-on 5s 1;
+
+        &:last-child{
+            margin-right: 0;
+        }
+        &:hover {
+            color: #f0c272;
+        }
+    }
+}
+
+.nav__link.active {
+    color: #ffffff;
+    border-color: #f0c272;
+}
+
+@keyframes header-brand {
+    0% {
+        color: #000000;
+        border-top: transparent;
+        border-bottom: transparent;
+        border-color: #000000;
+        border-color: #000000;
+        position: relative;
+        top: 0;
+        left: -200px;
+    }
+
+    30% {
+        border-top: transparent;
+        border-bottom: transparent;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    85% {
+        border-top: transparent;
+        border-bottom: transparent;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+
+@keyframes nav-on {
+    0% {
+        color: #000000;
+        position: relative;
+        top: 0;
+        right: -100px;
+    }
+
+    30% {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    85% {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+}
+
+// Медия запрос__________________________________________________________________________
+
+@media screen and (max-width: 640px) {
+   .header__logo {display: none;}
+   .nav {width: 100%;}
+}
