@@ -1,22 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ed629d6f.css",
-    "main.js": "/portfolio/static/js/main.5272fafc.js",
+    "main.css": "/portfolio/static/css/main.b816bcb3.css",
+    "main.js": "/portfolio/static/js/main.307f2d42.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/3dCharacter.png": "/portfolio/static/media/3dCharacter.1a987e7b66153fed6d9f.png",
-    "static/media/Comments.jpeg": "/portfolio/static/media/Comments.dfb3710832eaf103ec7e.jpeg",
-    "static/media/Burgers.jpeg": "/portfolio/static/media/Burgers.8341ff88216c3a0c11e0.jpeg",
-    "static/media/Conquest.jpeg": "/portfolio/static/media/Conquest.3bd8f3392a3a32834353.jpeg",
-    "static/media/MoGo.jpg": "/portfolio/static/media/MoGo.8bcae0d947dff1eae0ea.jpg",
     "static/media/photo.jpg": "/portfolio/static/media/photo.daa8bc857969cbc71590.jpg",
-    "static/media/GithubSearch.jpeg": "/portfolio/static/media/GithubSearch.ca5c289df2c41e9f4f4a.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.ed629d6f.css.map": "/portfolio/static/css/main.ed629d6f.css.map",
-    "main.5272fafc.js.map": "/portfolio/static/js/main.5272fafc.js.map",
+    "main.b816bcb3.css.map": "/portfolio/static/css/main.b816bcb3.css.map",
+    "main.307f2d42.js.map": "/portfolio/static/js/main.307f2d42.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed629d6f.css",
-    "static/js/main.5272fafc.js"
+    "static/css/main.b816bcb3.css",
+    "static/js/main.307f2d42.js"
   ]
 }

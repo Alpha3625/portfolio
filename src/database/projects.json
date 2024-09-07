@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Burgers",
+        "stack": ["HTML5", "SCSS", "TypeScript", "Angular"],
+        "description": "",
+        "image": "https://github.com/Alpha3625/burgers/raw/master/screenshot/Burgers.jpeg",
+        "deploy": "https://alpha3625.github.io/burgers/",
+        "source": "https://github.com/alpha3625/burgers"
+    }, 
+    {
+        "title": "MOGO",
+        "stack": ["HTML5", "SCSS", "JavaScript", "Gulp"],
+        "description": "",
+        "image": "https://github.com/Alpha3625/MOGO/raw/master/screenshot/MoGo.jpg",
+        "deploy": "https://alpha3625.github.io/MOGO/",
+        "source": "https://github.com/alpha3625/MOGO"
+    }, 
+    {
+        "title": "Conquest",
+        "stack": ["HTML5", "SCSS", "JavaScript", "Gulp"],
+        "description": "",
+        "image": "https://github.com/Alpha3625/Conquest/raw/main/screenshot/Conquest.jpeg",
+        "deploy": "https://alpha3625.github.io/Conquest/",
+        "source": "https://github.com/alpha3625/Conquest"
+    }, 
+    {
+        "title": "Comments",
+        "stack": ["HTML5", "SCSS", "JavaScript", "prepros.config"],
+        "description": "The project is a blog page with commenting capabilities, implemented in pure JavaScript.",
+        "image": "https://github.com/Alpha3625/Comments/raw/main/screenshot/comments.jpeg",
+        "deploy": "https://alpha3625.github.io/Comments/",
+        "source": "https://github.com/alpha3625/Comments"
+    }, 
+    {
+        "title": "Github-repos-search",
+        "stack": ["HTML5", "SCSS", "JavaScript", "prepros.config"],
+        "description": "",
+        "image": "https://github.com/Alpha3625/Github-repos-search/raw/main/screenshot/GithubSearch.jpeg",
+        "deploy": "https://alpha3625.github.io/Github-repos-search/",
+        "source": "https://github.com/alpha3625/Github-repos-search"
+    }
+]

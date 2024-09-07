@@ -1,19 +1,19 @@
 import React from "react";
-import About from './templates/about/About.jsx';
-import Projects from './templates/projects/Projects';
+import About from './components/about/About.jsx';
+import Skills from './components/skills/Skills.jsx';
+import ProjectsLst from './components/projectsList/PojectsList.jsx';
 import Footer from './components/footer/Footer';
-import BackgroundAnimation from './components/bg-animation/BackgroundAnimation';
+import BackgroundAnimation from './components/ui/bg-animation/BackgroundAnimation';
 
 function App() {
   return (
-    <div className="page">
-      <React.Fragment>
-          <About />
-          <Projects />
-          <Footer />
-          <BackgroundAnimation />
-      </React.Fragment>
-    </div>
+    <React.StrictMode>
+      <BackgroundAnimation />
+      <About />
+      <Skills />
+      <ProjectsLst />
+      <Footer />
+    </React.StrictMode>
   );
 }
 
