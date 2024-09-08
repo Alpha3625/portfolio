@@ -42,13 +42,15 @@ function Footer() {
                                         <a
                                             href="https://sochi.hh.ru/resume/3fcd4e4aff0bac53fb0039ed1f6a384f6b5346"
                                             target="_blank"
-                                            rel="noreferrer">Go to HeadHunter</a>
+                                            rel="noreferrer">Go to HeadHunter
+                                        </a>
                                     </li>
                                     <li>
                                         <a
                                             href="https://drive.google.com/file/d/1sAL44cZgE3wSlguGXtpxU-kbDHN9WtwD/view?usp=sharing"
                                             target="_blank"
-                                            rel="noreferrer">View saved copy</a>
+                                            rel="noreferrer">View saved copy
+                                        </a>
                                     </li>
                                 </ul>
                             </li>

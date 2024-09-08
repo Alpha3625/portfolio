@@ -1,6 +1,7 @@
 import './ProjectsList.scss';
 import projects from '../../database/projects.json';
 import ProjectsItem from '../projectsItem/ProjectsItem';
+import StubEmptyList from '../stub-empty-list/StubEmptyList';
 
 function Projects() {
 
@@ -12,10 +13,10 @@ function Projects() {
                     <h2 className="projects__title">Things I've built so far</h2>
                     <div className="projects__list">
                         {
-                            projects.map((post, index) => <ProjectsItem key={index} post={post} />
-                                // array.length !== 0 ?
-                                //     <ProjectsItem key={index} post={post} /> : <p style={{color: "red"}}>There's nothing here yet</p>
-                        )}
+                            projects.length !== 0 ?
+                                projects.map((post, index) => <ProjectsItem key={index} post={post} />) :
+                                <StubEmptyList />
+                        }
                     </div>
                 </div>
             </section>

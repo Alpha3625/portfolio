@@ -2,7 +2,7 @@
 
 ## Ссылка: на [GitHub Pages](https://Alpha3625.github.io/portfolio/)
 
-manifest.json provides metadata used when your web app is installed on a
+<!-- manifest.json provides metadata used when your web app is installed on a
 user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
 
 Notice the use of %PUBLIC_URL% in the tags above.
@@ -20,4 +20,4 @@ You can add webfonts, meta tags, or analytics to this file.
 The build step will place the bundled scripts into the <body> tag.
 
 To begin the development, run `npm start` or `yarn start`.
-To create a production bundle, use `npm run build` or `yarn build`.
+To create a production bundle, use `npm run build` or `yarn build`. -->
