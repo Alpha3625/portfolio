@@ -62,7 +62,7 @@ function Footer() {
                     </div>
                 </div>
 
-                <p>Спасибо за уделённое время!</p>
+                <p>Thanks for your time!</p>
             </div>
         </footer>
     );
