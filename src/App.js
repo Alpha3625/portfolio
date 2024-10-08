@@ -6,7 +6,6 @@ import Footer from './components/footer/Footer';
 import BackgroundAnimation from './components/ui/bg-animation/BackgroundAnimation';
 
 function App() {
-
   return (
     <React.StrictMode>
       <BackgroundAnimation />

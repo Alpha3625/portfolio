@@ -1,11 +1,11 @@
 [
     {
-        "title": "Burgers",
+        "title": "BURGER HOUSE",
         "stack": ["HTML5", "SCSS", "TypeScript", "Angular"],
         "description": "",
-        "image": "https://github.com/Alpha3625/burgers/raw/master/screenshot/Burgers.jpeg",
-        "deploy": "https://alpha3625.github.io/burgers/",
-        "source": "https://github.com/alpha3625/burgers"
+        "image": "https://github.com/Alpha3625/burger-house/raw/main/assets/screenshot/burger-house.jpeg",
+        "deploy": "alpha3625.github.io/burger-house/",
+        "source": "https://github.com/Alpha3625/burger-house"
     }, 
     {
         "title": "MOGO",

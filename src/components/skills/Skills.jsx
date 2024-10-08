@@ -1,7 +1,6 @@
 import './Skills.scss';
-import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiGithub, SiBootstrap } from 'react-icons/si';
+import { SiHtml5, SiCss3, SiJavascript, SiTypescript, SiReact, SiWebpack, SiRedux } from 'react-icons/si';
 import { FaSass, FaGitAlt } from 'react-icons/fa';
-import { DiGulp } from 'react-icons/di';
 import { IoLogoFirebase } from "react-icons/io5";
 
 const Skills = () => {
@@ -30,19 +29,16 @@ const Skills = () => {
                         <SiReact /><span>React</span>
                     </div>
                     <div className="skills__list-item">
-                        <SiBootstrap /><span>Bootstrap</span>
+                        <SiRedux /><span>Redux</span>
                     </div>
                     <div className="skills__list-item">
-                        <DiGulp /><span>Gulp</span>
+                        <SiWebpack /><span>Webpack</span>
                     </div>
                     <div className="skills__list-item">
                         <IoLogoFirebase /><span>FireBase</span>
                     </div>
                     <div className="skills__list-item">
                         <FaGitAlt /><span>Git</span>
-                    </div>
-                    <div className="skills__list-item">
-                        <SiGithub /><span>GitHub</span>
                     </div>
                 </div>
             </div>

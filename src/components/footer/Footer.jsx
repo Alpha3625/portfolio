@@ -40,14 +40,14 @@ function Footer() {
                                 <ul>
                                     <li>
                                         <a
-                                            href="https://sochi.hh.ru/resume/3fcd4e4aff0bac53fb0039ed1f6a384f6b5346"
+                                            href="https://sochi.hh.ru/resume/d63a679cff0db239cd0039ed1f54326d52756f"
                                             target="_blank"
                                             rel="noreferrer">Go to HeadHunter
                                         </a>
                                     </li>
                                     <li>
                                         <a
-                                            href="https://drive.google.com/file/d/1sAL44cZgE3wSlguGXtpxU-kbDHN9WtwD/view?usp=sharing"
+                                            href="https://drive.google.com/file/d/1bkd__Bd8HIFaiI9Qiz9EZbfGJBJtKdYb/view?usp=sharing"
                                             target="_blank"
                                             rel="noreferrer">View saved copy
                                         </a>
