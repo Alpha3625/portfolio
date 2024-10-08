@@ -1,10 +1,10 @@
 [
     {
         "title": "BURGER HOUSE",
-        "stack": ["HTML5", "SCSS", "TypeScript", "Angular"],
+        "stack": ["HTML", "CSS", "JavaScript"],
         "description": "",
         "image": "https://github.com/Alpha3625/burger-house/raw/main/assets/screenshot/burger-house.jpeg",
-        "deploy": "alpha3625.github.io/burger-house/",
+        "deploy": "https://alpha3625.github.io/burger-house/",
         "source": "https://github.com/Alpha3625/burger-house"
     }, 
     {
