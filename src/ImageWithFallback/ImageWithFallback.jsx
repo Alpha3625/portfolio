@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import StubPictures from '../components/ui/StubPictures/StubPictures';
 
-function ImageWithFallback({ className, src, alt }) {
+function ImageWithFallback(className, src, alt) {
     const [hasError, setHasError] = useState(false);
 
     const handleError = () => {

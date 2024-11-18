@@ -37,7 +37,7 @@
     {
         "title": "BURGER HOUSE",
         "stack": ["React", "TypeScript + SWC", "Vite"],
-        "image": "",
+        "image": "https://github.com/Alpha3625/Comments/raw/main/screenshot/comments.jpeg",
         "deploy": "https://alpha3625.github.io/burger-house/",
         "source": "https://github.com/Alpha3625/burger-house"
     }
