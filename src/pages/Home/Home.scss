@@ -1,0 +1,115 @@
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 100px;
+    padding: 200px 0 200px;
+
+    @media (max-width: 390px) {
+        padding-top: 150px;
+    }
+
+    @media (max-width: 320px) {
+        padding: 100px 0;
+    }
+}
+
+.home__content {
+    text-align: center;
+    align-self: center;
+    line-height: 1.3;
+
+    @media screen and (max-width: 1090px) {
+        padding: 0 10px;
+    }
+
+    @media screen and (max-width: 603px) {
+        text-align: center;
+    }
+
+    @media screen and (max-width: 500px) {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    &>h1 {
+        font-size: clamp(10px, 5vw, 45px);
+        & > span {
+            color: #5000fe;
+        }
+    }
+
+    &>h2 {
+        font-size: clamp(10px, 5vw, 30px);
+        max-width: 500px;
+        margin-bottom: 10px;
+    }
+
+    &>p {
+        font-size: clamp(10px, 5vw, 18px);
+    }
+}
+
+.home__img {
+    justify-self: center;
+    overflow: hidden;
+    width: 400px;
+    height: 400px;
+    max-width: 500px;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    border: 10px solid #fff;
+    box-shadow: 2px 5px 10p rgba(0, 0, 0, 0.5);
+    animation: ava-animate 5s infinite alternate;
+
+    &>img {
+        width: 400px;
+        height: 400px;
+    }
+
+    @media screen and (max-width: 1090px) {
+        border: 5px double #ffffff;
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+
+        &>img {
+            width: 100%;
+            height: 200px;
+        }
+    }
+}
+
+.home__download-cv-button {
+    background-color: #5000fe;
+    border-radius: 5px;
+    padding: 8px 12px 10px;
+    font-size: clamp(10px, 5vw, 20px);
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: linear .2s;
+
+    &:hover {
+        background-color: rgb(67, 1, 208);
+    }
+}
+
+@keyframes ava-animate {
+    0% {
+        border-radius: 27% 73% 48% 52% / 17% 38% 62% 83%;
+    }
+
+    40% {
+        border-radius: 61% 39% 69% 31% / 51% 59% 41% 49%;
+    }
+
+    60% {
+        border-radius: 40% 60% 23% 77% / 24% 49% 51% 76%;
+    }
+
+    100% {
+        border-radius: 28% 72% 56% 44% / 71% 26% 74% 29%;
+    }
+}

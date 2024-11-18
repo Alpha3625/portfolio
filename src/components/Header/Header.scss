@@ -1,0 +1,126 @@
+.header {
+    padding-top: 30px;
+    transition: linear .3s;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    @media (max-width: 320px) {
+        padding-top: 20px;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-size: 20px;
+        font-weight: 700;
+        font-family: fantasy;
+        padding: 0 10px;
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        border-right: 3px solid #f0c272;
+        border-left: 3px solid #f0c272;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        user-select: none;
+        animation: header-brand 5s 1;
+
+        @media screen and (max-width: 640px) {
+            display: none;
+         }
+    }
+}
+
+.header.active {
+    background-color: #000000;
+    padding: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+
+    @media screen and (max-width: 640px) {
+        width: 100%;
+     }
+
+    &__link {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: clamp(5px, 3vw, 16px);
+        font-weight: 700;
+        padding-bottom: 5px;
+        border-bottom: 3px solid transparent;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: linear .1s;
+        animation: nav-on 5s 1;
+
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+
+        &:hover {
+            color: #f0c272;
+        }
+
+        &.active {
+            color: #ffffff;
+            border-color: #f0c272;
+        }
+    }
+}
+
+@keyframes header-brand {
+    0% {
+        color: #000000;
+        border-top: transparent;
+        border-bottom: transparent;
+        border-color: #000000;
+        border-color: #000000;
+        position: relative;
+        top: 0;
+        left: -200px;
+    }
+
+    30% {
+        border-top: transparent;
+        border-bottom: transparent;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    85% {
+        border-top: transparent;
+        border-bottom: transparent;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+}
+
+@keyframes nav-on {
+    0% {
+        color: #000000;
+        position: relative;
+        top: 0;
+        right: -100px;
+    }
+
+    30% {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+
+    85% {
+        position: relative;
+        top: 0;
+        right: 0;
+    }
+}
