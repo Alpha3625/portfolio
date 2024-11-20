@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import BackgroundAnimation from './components/ui/Bg-animation/BackgroundAnimation.jsx';
 import Header from './components/Header/Header.jsx';
 import Home from "./pages/Home/Home.jsx";
@@ -7,7 +7,7 @@ import Contacts from './pages/Contacts/Contacts.jsx';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <BackgroundAnimation />
       <Header />
       <Routes>
@@ -15,7 +15,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contacts" element={<Contacts />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

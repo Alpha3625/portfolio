@@ -18,8 +18,7 @@ function Header() {
     return (
         <header className={navBar ? "header active" : "header"}>
                 <div className="header__inner container">
-                    <div
-                        className="header__logo">Portfolio</div>
+                    <div className="header__logo">Portfolio</div>
                         
                     <nav className="nav">
                         <NavLink

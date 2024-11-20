@@ -8,8 +8,8 @@ function Projects() {
         <>
             <section className="projects">
                 <div className="container">
-                    <div className="section-type">Projects</div>
-                    <h2 className="projects__title">Things I&apos;ve built so far</h2>
+                    {/* <div className="section-type">Projects</div>
+                    <h2 className="projects__title">Things I&apos;ve built so far</h2> */}
                     <div className="projects__list">
                         {
                             projects.length !== 0

@@ -35,10 +35,10 @@
         "source": "https://github.com/alpha3625/Github-repos-search"
     },
     {
-        "title": "BURGER HOUSE",
+        "title": "To-do List",
         "stack": ["React", "TypeScript + SWC", "Vite"],
-        "image": "https://github.com/Alpha3625/Comments/raw/main/screenshot/comments.jpeg",
-        "deploy": "https://alpha3625.github.io/burger-house/",
-        "source": "https://github.com/Alpha3625/burger-house"
+        "image": "",
+        "deploy": "https://alpha3625.github.io/todo-list/",
+        "source": "https://github.com/Alpha3625/todo-list"
     }
 ]

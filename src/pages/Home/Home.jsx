@@ -1,5 +1,5 @@
 import './Home.scss';
-import Photo from '../../assets/images/photo.jpg';
+import Photo from '../../assets/images/photo.png';
 import Skills from '../Skills/Skills';
 
 const Home = () => {

@@ -55,10 +55,11 @@
     justify-self: center;
     overflow: hidden;
     width: 400px;
-    height: 400px;
+    height: 350px;
     max-width: 500px;
     background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    // background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+    background-image: linear-gradient(-20deg, #4b0da9 0%, #dbeefc 100%);
     border: 10px solid #fff;
     box-shadow: 2px 5px 10p rgba(0, 0, 0, 0.5);
     animation: ava-animate 5s infinite alternate;
